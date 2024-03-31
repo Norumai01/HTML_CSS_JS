@@ -31,9 +31,16 @@
     </div>
     <h1> Link to Click. </h1>
     <div> 
+        <!-- Open without new tab. -->
         <p> <a href="https://www.google.com"> Google </a> </p>
+        <!-- Open with new tab. Use atrribute target. -->
         <p> <a href="https://www.youtube.com" target="_blank"> Youtube </a> </p>
-        <p> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> Free Porn </a> </p>
+        <!-- Using atrribute rel for security reason.  -->
+        <!-- "noopener noreferrer" prevent phishing attack -->
+        <!-- When user is inactive for a period and wants to return back to original tab, the original site URL doesn't change. Called Tabnabbing knowns for Phishing attack. -->
+        <p> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer"> Porn </a> </p>
+        <!-- Can add local link. Own website or file path. -->
+        <p> <a href="./about.html"> Local Link </a></p>
     </div>
 </body>
 </html>
