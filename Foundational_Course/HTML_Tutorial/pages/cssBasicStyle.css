@@ -1,3 +1,32 @@
 #title {
     color:rgb(17, 0, 255);
 }
+.contentOne, .contentTwo {
+    color:rgb(0, 247, 255)
+}
+.contentOne {
+    background-color: rgb(231, 138, 138);
+}
+.contentTwo {
+    background-color: rgb(61, 209, 160);
+}
+.header.one {
+    color:hsl(115, 84%, 58%);
+    text-align: center;
+    font-size: larger;
+}
+.sub#header {
+    color:hsl(276, 84%, 58%);
+    text-align: center;
+}
+.boxText .sub#preview {
+    color:hsl(214, 84%, 58%);
+    font-family:'Courier New', Courier, monospace;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 180px;
+}
