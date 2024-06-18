@@ -1,5 +1,5 @@
 Frontend: React
-Bankend: Node.js with Express.js
+Backend: Django 
 SQL Database: PostgreSQL or MySQL
 
 Summary: Creating a full-stack frontend and backend website for user to manage their bank account such as core banking features.
@@ -7,14 +7,15 @@ Summary: Creating a full-stack frontend and backend website for user to manage t
 Requirements:
 
 Backend:
-Authenication/Authorization: Authenticate and authorize access to account. (OAuth)
+Authentication/Authorization: Authenticate and authorize access to account. (OAuth)
 Database Management: Reliable database system to store users' information. (PostgreSQL or MySQL)
-APIs: Restful APIs to handle client-server communication such as user login, account balance retrievel, fund tranfers and viewing transaction history. 
-Concurrency/Transaction: Ensuries the back-end can handle concurrent requests and maintain data consistency.
+Backend Client: Backend CRUD operation to handle client-server communication such as user login, account balance retrieval, fund transfers and viewing transaction history. 
+Concurrency/Transaction: Ensures the back-end can handle concurrent requests and maintain data consistency.
 Scalability: Design with the flexibility of many users and features.
 
+
 Frontend:
-User Authenication: Sign up, login and logout with email and password.
+User Authentication: Sign up, login and logout with email and password.
 Dashboard: User-friendly dashboard for users to view account balance.
 Account Management: Updating personal information like email and password.
 View Transaction history.
@@ -26,11 +27,12 @@ Optional:
 
 Backend:
 Security Measures: Input validation, SQL injection, HTTPS for secure communication and sensitive data.
-Logging/Monitorining: Logging mechanisms to track user activites, errors and system errors.
+Logging/Monitoring: Logging mechanisms to track user activities, errors and system errors.
 Compliance/Regulation: Complied with banking regulations and security standards.
+
 
 Frontend:
 Bill Payments
 Account Statements: Generate an account statement in PDF or CSV for tax purposes.
-Reponsive Design: Minimal latency and reponsive transition.
+Responsive Design: Minimal latency and responsive transition.
 Security Features: HTTPS to ensure the security of user data and transactions.
